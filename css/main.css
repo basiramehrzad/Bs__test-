@@ -1,0 +1,107 @@
+body,
+html {
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+    background-color: #fafbfd;
+}
+
+body {
+    color: #606c76;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.6em;
+    font-weight: 300;
+    letter-spacing: .01em;
+    line-height: 1.6;
+}
+
+.nav,
+.nav.active {
+    transition: all .4s ease-in-out;
+}
+
+.nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1100;
+    padding-top: 2rem;
+}
+
+.nav .nav__list {
+    padding-left: none;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+}
+
+ul {
+    margin-bottom: 2.5rem;
+}
+
+.nav .nav__list .nav__item .nav__brand img {
+    width: 145px;
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: #2e323d;
+    cursor: pointer;
+}
+
+.nav .nav__list .nav__item .nav__link {
+    font-size: 1.225rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: block;
+    color: #80848f;
+    padding: 1rem;
+    font-size: 1.325rem;
+    font-family: Poppins!important;
+}
+
+.button.button--sm,
+.button.button--xs {
+    display: flex!important;
+    align-items: center;
+    padding: 1rem 2.4rem;
+    font-size: 1.325rem;
+}
+
+.button.button--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+
+.button.button--primary {
+    background-color: #292d36;
+}
+
+.button {
+    padding: 2.8rem 4rem;
+    line-height: .3rem;
+    font-weight: 500;
+    font-size: 1.45rem;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    transition: color .2s cubic-bezier(.4, 0, .2, 1), background .2s cubic-bezier(.4, 0, .2, 1), box-shadow .4s cubic-bezier(.4, 0, .2, 1);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
